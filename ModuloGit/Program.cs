@@ -16,9 +16,18 @@ namespace ModuloGit
             int opcao = int.Parse(Console.ReadLine());
             while (opcao != 0)
             {
-
+                int a, b;
+                Console.WriteLine("Informe o valor dos numeros a serem somados");
+                a = int.Parse(Console.ReadLine());
+                b = int.Parse(Console.ReadLine());
+                int resultado = Soma(a, b);
             }
             #endregion
+        }
+
+        static int Soma(int a, int b)
+        {
+            return a + b;
         }
     }
 }
