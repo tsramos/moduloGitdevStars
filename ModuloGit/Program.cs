@@ -21,6 +21,9 @@ namespace ModuloGit
                 a = int.Parse(Console.ReadLine());
                 b = int.Parse(Console.ReadLine());
                 int resultado = Soma(a, b);
+                Console.WriteLine("Soma dos valores é igual a " + resultado);
+                Console.WriteLine("Se deseja repetir digite 1 senão digite 0.");
+                opcao = int.Parse(Console.ReadLine());
             }
             #endregion
         }
