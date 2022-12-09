@@ -19,9 +19,8 @@ namespace ModuloGit
                 int a, b;
                 Console.WriteLine("Informe o valor dos numeros a serem somados");
                 a = int.Parse(Console.ReadLine());
-                b = int.Parse(Console.ReadLine());
-                int resultado = Soma(a, b);
-                Console.WriteLine("Soma dos valores é igual a " + resultado);
+                b = int.Parse(Console.ReadLine());                
+                Console.WriteLine("Soma dos valores é igual a " + Soma(a,b));
                 Console.WriteLine("Se deseja repetir digite 1 senão digite 0.");
                 opcao = int.Parse(Console.ReadLine());
             }
@@ -32,5 +31,11 @@ namespace ModuloGit
         {
             return a + b;
         }
+
+        static int Subtracao(int a, int b)
+        {
+            return a - b;
+        }
+
     }
 }
