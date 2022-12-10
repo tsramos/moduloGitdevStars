@@ -25,6 +25,8 @@ namespace ModuloGit
                 Console.WriteLine("Se deseja repetir digite 1 senão digite 0.");
                 opcao = int.Parse(Console.ReadLine());
             }
+
+            Console.WriteLine("Obrigado por participar");
             #endregion
 
             LerMensagem();
