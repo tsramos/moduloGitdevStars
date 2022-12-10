@@ -26,11 +26,18 @@ namespace ModuloGit
                 opcao = int.Parse(Console.ReadLine());
             }
             #endregion
+
+            LerMensagem();
         }
 
         static int Soma(int a, int b)
         {
             return a + b;
+        }
+
+        static void LerMensagem()
+        {
+            Console.WriteLine("Obrigado pela participação!");
         }
     }
 }
