@@ -32,15 +32,5 @@ namespace ModuloGit
         {
             return a + b;
         }
-
-        static int Subtracao(int a, int b)
-        {
-            return a - b;
-        }
-
-        static int Multiplicacao(int a, int b)
-        {
-            return a * b;
-        }
     }
 }
